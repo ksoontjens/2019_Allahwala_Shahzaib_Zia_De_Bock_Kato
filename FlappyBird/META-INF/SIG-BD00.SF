@@ -1,14 +1,35 @@
 Signature-Version: 1.0
 Created-By: 1.6.0_16 (Sun Microsystems Inc.)
 BDJ-Signature-Version: 1.0
-SHA1-Digest-Manifest: WFSNWt9eNvXgMNCEpKfDf6Aqnzg=
+SHA1-Digest-Manifest: cty67G6SnNYDhacAB8pug5ER9bI=
 
 Name: hellotvxlet/HelloTVXlet.class
-SHA1-Digest: k3+sSqcNMlfrslaBGw0Hum9kbmo=
+SHA1-Digest: 0yu1a5farCQ3x0YXF9mkl7RmKXE=
 
 Name: hellotvxlet/HelloTVXlet$1.class
 SHA1-Digest: jL4rl+dtvgbj4VErj8qjkXfGCe4=
 
+Name: vogel.jpg
+SHA1-Digest: ioMz+YiO1e1tuxjV2fKuqTT2l1U=
+
+Name: vogel2.jpg
+SHA1-Digest: zwAj9oWCQ9t2MOJHbT58n/jksYk=
+
+Name: hellotvxlet/Achtergrond.class
+SHA1-Digest: Ir+Zmt5HzgkJpUMjR9xfrg/8Dho=
+
+Name: achtergrond.jpg
+SHA1-Digest: 3UAGIleGjUQM3UuGzeGEkhwZkJE=
+
+Name: hellotvxlet/Vogel.class
+SHA1-Digest: llThl3BtzewH0rNc3SCqxcRIO08=
+
 Name: hellotvxlet/bluray.HelloTVXlet.perm
 SHA1-Digest: 84ZO/rYCyy0JStmaLbg1GDVEFhQ=
+
+Name: hellotvxlet/TimerBron.class
+SHA1-Digest: b6I3snxbaKWeMEJ3Vl6Xwj8Bd7I=
+
+Name: hellotvxlet/Levend.class
+SHA1-Digest: PT2v6/8hobDeftIcQ4wVjHdK0Kk=
 
