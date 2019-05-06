@@ -35,6 +35,7 @@ public class Achtergrond extends HComponent implements Levend {
     public void leef() {
       System.out.println("ag");
       x=x-1;
+      if (x<-720) x=0;
       this.repaint();
     }
 
@@ -42,6 +43,7 @@ public class Achtergrond extends HComponent implements Levend {
     public void paint(Graphics g)
     {
         g.drawImage(achterg, x, 0, this);
+            g.drawImage(achterg, 720+x, 0, this);
      //  g.drawLine(x+100, x, x+100, x);
     }
 }

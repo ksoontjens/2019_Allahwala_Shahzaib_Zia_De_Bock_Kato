@@ -16,17 +16,20 @@ import org.havi.ui.HComponent;
  */
 public class Vogel extends HComponent implements Levend {
 
-    Image vogel, vogel2; //=new Image();
+    Image spaceship1, spaceship2, spaceship3, spaceship4; //=new Image();
     int x=50;
     boolean flap=false;
+    int val=1;
     
     public Vogel () 
     
     {
-       vogel=this.getToolkit().getImage(("vogel.jpg"));
-              vogel2=this.getToolkit().getImage(("vogel2.jpg"));
+       spaceship1=this.getToolkit().getImage(("spaceship1.png"));
+              spaceship2=this.getToolkit().getImage(("spaceship2.png"));
+                    spaceship3=this.getToolkit().getImage(("spaceship3.png"));
+                            spaceship4=this.getToolkit().getImage(("spaceship4.png"));
        MediaTracker mt=new MediaTracker(this);
-       mt.addImage(vogel, 1);     mt.addImage(vogel2, 2);
+       mt.addImage(spaceship1, 1);     mt.addImage(spaceship2, 2);      mt.addImage(spaceship3, 3);     mt.addImage(spaceship4, 4);
         try {
             mt.waitForAll();
         } catch (InterruptedException ex) {
@@ -38,13 +41,24 @@ public class Vogel extends HComponent implements Levend {
       System.out.println("ag");
   //    x=x-1;
       flap=!flap;
+      val++;
+      if(val == 4){
+    
+          val = 1;
+      }
+
+      
+      
       this.repaint();
     }
 
     
     public void paint(Graphics g)
     {
-        if (flap) g.drawImage(vogel, x, 0, this); else  g.drawImage(vogel2, x, 0, this);
+        if (val == 1) g.drawImage(spaceship1, x, 0, this);
+        if (val == 2) g.drawImage(spaceship2, x, 0, this);
+        if (val == 3) g.drawImage(spaceship3, x, 0, this);
+        if (val == 4) g.drawImage(spaceship4, x, 0, this);
      //  g.drawLine(x+100, x, x+100, x);
     }
 }

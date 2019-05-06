@@ -1,7 +1,7 @@
 Signature-Version: 1.0
 Created-By: 1.6.0_16 (Sun Microsystems Inc.)
 BDJ-Signature-Version: 1.0
-SHA1-Digest-Manifest: cty67G6SnNYDhacAB8pug5ER9bI=
+SHA1-Digest-Manifest: FY0EBcgphqrogr5KcofFAMrdtag=
 
 Name: hellotvxlet/HelloTVXlet.class
 SHA1-Digest: 0yu1a5farCQ3x0YXF9mkl7RmKXE=
@@ -9,23 +9,29 @@ SHA1-Digest: 0yu1a5farCQ3x0YXF9mkl7RmKXE=
 Name: hellotvxlet/HelloTVXlet$1.class
 SHA1-Digest: jL4rl+dtvgbj4VErj8qjkXfGCe4=
 
-Name: vogel.jpg
-SHA1-Digest: ioMz+YiO1e1tuxjV2fKuqTT2l1U=
-
-Name: vogel2.jpg
-SHA1-Digest: zwAj9oWCQ9t2MOJHbT58n/jksYk=
+Name: spaceship2.png
+SHA1-Digest: MZlqVVx5+l3ryUckgY+XtF9huXs=
 
 Name: hellotvxlet/Achtergrond.class
-SHA1-Digest: Ir+Zmt5HzgkJpUMjR9xfrg/8Dho=
+SHA1-Digest: QvRau8zPbCRIs/umDUxAMQhcQCg=
+
+Name: spaceship1.png
+SHA1-Digest: hSeCLyZlqrcdVUvJQBRZuyR0eNU=
 
 Name: achtergrond.jpg
-SHA1-Digest: 3UAGIleGjUQM3UuGzeGEkhwZkJE=
+SHA1-Digest: trGOMTmPPetG51pQd0kjCEyc4F0=
 
 Name: hellotvxlet/Vogel.class
-SHA1-Digest: llThl3BtzewH0rNc3SCqxcRIO08=
+SHA1-Digest: 75TIPEQ2lupF7qB2n4mbzsZJHvM=
 
 Name: hellotvxlet/bluray.HelloTVXlet.perm
 SHA1-Digest: 84ZO/rYCyy0JStmaLbg1GDVEFhQ=
+
+Name: spaceship3.png
+SHA1-Digest: nQIKLmk5kJyWQZ6u7yxHUEWV4GQ=
+
+Name: spaceship4.png
+SHA1-Digest: /SY7jzkx1uaExsG6Y4tfQkvx3ew=
 
 Name: hellotvxlet/TimerBron.class
 SHA1-Digest: b6I3snxbaKWeMEJ3Vl6Xwj8Bd7I=
