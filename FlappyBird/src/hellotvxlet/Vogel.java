@@ -20,6 +20,7 @@ public class Vogel extends HComponent implements Levend {
     int x=50;
     boolean flap=false;
     int val=1;
+    int y=230;
     
     public Vogel () 
     
@@ -46,19 +47,17 @@ public class Vogel extends HComponent implements Levend {
     
           val = 1;
       }
-
-      
-      
+      y+=3;
       this.repaint();
     }
 
     
     public void paint(Graphics g)
     {
-        if (val == 1) g.drawImage(spaceship1, x, 0, this);
-        if (val == 2) g.drawImage(spaceship2, x, 0, this);
-        if (val == 3) g.drawImage(spaceship3, x, 0, this);
-        if (val == 4) g.drawImage(spaceship4, x, 0, this);
+        if (val == 1) g.drawImage(spaceship1, x, y, this);
+        if (val == 2) g.drawImage(spaceship2, x, y, this);
+        if (val == 3) g.drawImage(spaceship3, x, y, this);
+        if (val == 4) g.drawImage(spaceship4, x, y, this);
      //  g.drawLine(x+100, x, x+100, x);
     }
 }
