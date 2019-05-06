@@ -1,41 +1,38 @@
 Signature-Version: 1.0
 Created-By: 1.6.0_16 (Sun Microsystems Inc.)
 BDJ-Signature-Version: 1.0
-SHA1-Digest-Manifest: 3YG+JhJ4YIU2WNzoaesQhAYURiI=
+SHA1-Digest-Manifest: DgqcJfN9UFi4w23I2wR0OulSaHc=
 
 Name: hellotvxlet/HelloTVXlet.class
-SHA1-Digest: 9rBUwkW04E1kYclin/UvvURVp1o=
+SHA1-Digest: sZmjvobJe0bhu5DHdEVIzPPuKgQ=
 
-Name: hellotvxlet/HelloTVXlet$1.class
-SHA1-Digest: jL4rl+dtvgbj4VErj8qjkXfGCe4=
+Name: hellotvxlet/GameOver.class
+SHA1-Digest: p+NTF1zx50CU/gIN2R7SJIZh2Mw=
 
-Name: spaceship2.png
-SHA1-Digest: MZlqVVx5+l3ryUckgY+XtF9huXs=
+Name: hellotvxlet/spaceship1.class
+SHA1-Digest: LuoV8ulhnmaZL9tVZP5OPdqlWaA=
+
+Name: hellotvxlet/Paal.class
+SHA1-Digest: 9zFNvtRwpIudyrBLQri4WO8E3pY=
 
 Name: hellotvxlet/Achtergrond.class
-SHA1-Digest: QvRau8zPbCRIs/umDUxAMQhcQCg=
-
-Name: spaceship1.png
-SHA1-Digest: hSeCLyZlqrcdVUvJQBRZuyR0eNU=
-
-Name: achtergrond.jpg
-SHA1-Digest: trGOMTmPPetG51pQd0kjCEyc4F0=
+SHA1-Digest: GhCgPv53NnaUyY/o42GboxjphY8=
 
 Name: hellotvxlet/Vogel.class
-SHA1-Digest: Gy4HbwlflcaJnJj7pY/+HFCDJ1w=
+SHA1-Digest: MJ3dy3myaEFEFmbEWS9rOskQ39k=
 
 Name: hellotvxlet/bluray.HelloTVXlet.perm
 SHA1-Digest: 84ZO/rYCyy0JStmaLbg1GDVEFhQ=
 
-Name: spaceship3.png
-SHA1-Digest: nQIKLmk5kJyWQZ6u7yxHUEWV4GQ=
-
-Name: spaceship4.png
-SHA1-Digest: /SY7jzkx1uaExsG6Y4tfQkvx3ew=
-
 Name: hellotvxlet/TimerBron.class
-SHA1-Digest: b6I3snxbaKWeMEJ3Vl6Xwj8Bd7I=
+SHA1-Digest: TqjoPpupc/hmMaT+VuzTXfznMc8=
+
+Name: hellotvxlet/Sprite.class
+SHA1-Digest: BfNDpIae158AuPbTYopQc77sUDA=
 
 Name: hellotvxlet/Levend.class
 SHA1-Digest: PT2v6/8hobDeftIcQ4wVjHdK0Kk=
+
+Name: hellotvxlet/CollisionDetector.class
+SHA1-Digest: aZjpnRS4LaDLQ6RfQJ/xyeMMHMM=
 

@@ -12,25 +12,34 @@ import org.havi.ui.HSceneFactory;
 
 
 public class HelloTVXlet implements Xlet, UserEventListener {
-          Vogel vg=new Vogel();
-  
+          Vogel vg=new Vogel("spaceship1.png");
+          Paal paal=new Paal("spaceship1.png");
+            GameOver go=new GameOver("gameover.png");
 
     public void initXlet(XletContext context) {
      TimerBron tb=new TimerBron();
      
      Timer t=new Timer();
      t.scheduleAtFixedRate(tb, 0, 10);
-     Achtergrond ag=new Achtergrond();
+     Achtergrond ag=new Achtergrond("achtergrond.jpg");
      tb.registreer(ag);
 
      tb.registreer(vg);
+     tb.registreer(paal);
+     tb.registreer(go);
      
      HScene scene=HSceneFactory.getInstance().getDefaultHScene();
      scene.add(ag);
+     scene.add(go);
           scene.add(vg);
           scene.popToFront(vg);
+               scene.popToFront(go);
+                    scene.add(paal);
+          scene.popToFront(paal);
      scene.validate();
      scene.setVisible(true);
+     CollisionDetector cd=new CollisionDetector(vg);
+     cd.add(paal);
      UserEventRepository rep=new UserEventRepository("naam");
      rep.addAllArrowKeys();
      EventManager.getInstance().addUserEventListener(this, rep);

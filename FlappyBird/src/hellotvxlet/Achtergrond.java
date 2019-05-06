@@ -14,26 +14,18 @@ import org.havi.ui.HComponent;
  *
  * @author shahz
  */
-public class Achtergrond extends HComponent implements Levend {
+public class Achtergrond extends Sprite implements Levend {
 
     Image achterg; //=new Image();
     int x=0;
     
-    public Achtergrond () 
+    public Achtergrond (String filename) 
     
     {
-       achterg=this.getToolkit().getImage(("achtergrond.jpg"));
-       MediaTracker mt=new MediaTracker(this);
-       mt.addImage(achterg, 1);
-        try {
-            mt.waitForAll();
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }
-       this.setBounds(0,0,720,576);
+      super(filename);
     }
     public void leef() {
-      System.out.println("ag");
+  //    System.out.println("ag");
       x=x-1;
       if (x<-720) x=0;
       this.repaint();
@@ -42,8 +34,8 @@ public class Achtergrond extends HComponent implements Levend {
     
     public void paint(Graphics g)
     {
-        g.drawImage(achterg, x, 0, this);
-            g.drawImage(achterg, 720+x, 0, this);
+        g.drawImage(img, x, 0, this);
+            g.drawImage(img, 720+x, 0, this);
      //  g.drawLine(x+100, x, x+100, x);
     }
 }
