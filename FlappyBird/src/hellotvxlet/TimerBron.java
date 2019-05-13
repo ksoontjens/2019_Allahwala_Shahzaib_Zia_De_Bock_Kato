@@ -15,14 +15,17 @@ import java.util.TimerTask;
 public class TimerBron extends TimerTask {
 
     ArrayList al=new ArrayList();
-    
+    boolean disabled=false;
     
     public void run() {
      //   System.out.println(".");
+        if (!disabled)
+        {
        for (int i=0;i<al.size();i++)
-       {;
+       {
            ((Levend)al.get(i)).leef();
        }
+        }
     }
     
     public void registreer(Levend l)

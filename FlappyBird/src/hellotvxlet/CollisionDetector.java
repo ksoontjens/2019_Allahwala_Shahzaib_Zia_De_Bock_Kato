@@ -15,10 +15,14 @@ public class CollisionDetector implements Levend {
 
       ArrayList al=new ArrayList();
       Vogel v;
+      Achtergrond a;
+      HelloTVXlet hoofdprog;
       
-    public CollisionDetector(Vogel vp)
+    public CollisionDetector(Vogel vg, Achtergrond ag,   HelloTVXlet hoofdprog)
     {
-        v=vp;
+        v=vg;
+        a=ag;
+        this.hoofdprog=hoofdprog;
     }
     public void leef() {
      //   System.out.println(".");
@@ -27,13 +31,21 @@ public class CollisionDetector implements Levend {
            Paal p=((Paal)al.get(i));
            if (p.getBounds().intersects(v.getBounds()))
            {
+               hoofdprog.stopSpel();
                for(int l=0; l<100; l++){
                    System.out.println("COLLISION!!!" + l);
                }
                
            }
+
            
        }
+              if (v.y>576){
+                   v.y = 300;
+                   }
+              if (v.y<0){
+                   v.y = 300;
+               }
     }
     
     public void add(Paal l)

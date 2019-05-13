@@ -18,6 +18,7 @@ public class Vogel extends Sprite {
     
     Image spaceship1, spaceship2, spaceship3, spaceship4, gameOver; //=new Image();
 
+int vlieg=0;
 
     int val=1;
 public Vogel(String filename)
@@ -47,11 +48,16 @@ public Vogel(String filename)
           val = 1;
       }
       x=30;
-      y+=3;
+      y+=1;
       this.repaint();
       
         this.setBounds(x,y,spaceship1.getWidth(this),spaceship1.getHeight(this));
-        
+        if (vlieg>0)
+            
+        {
+            vlieg--;
+            y=y-2;
+        }
     }
       public void paint(Graphics g)
     {

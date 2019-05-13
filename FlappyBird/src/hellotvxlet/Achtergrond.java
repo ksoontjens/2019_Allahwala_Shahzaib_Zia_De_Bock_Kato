@@ -25,12 +25,15 @@ public class Achtergrond extends Sprite implements Levend {
     
     {
       super(filename);
+      
     }
     public void leef() {
   //    System.out.println("ag");
       x=x-1;
       if (x<-720) x=0;
       this.repaint();
+      if (achterg==null) return;
+      this.setBounds(x,y,achterg.getWidth(this),achterg.getHeight(this));
     }
 
     
