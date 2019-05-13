@@ -41,10 +41,10 @@ public class CollisionDetector implements Levend {
            
        }
               if (v.y>576){
-                   v.y = 300;
+                   hoofdprog.stopSpel();
                    }
               if (v.y<0){
-                   v.y = 300;
+                   v.y = 288;
                }
     }
     

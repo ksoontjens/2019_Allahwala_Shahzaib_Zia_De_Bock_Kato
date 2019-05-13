@@ -1,7 +1,7 @@
 Signature-Version: 1.0
 Created-By: 1.6.0_16 (Sun Microsystems Inc.)
 BDJ-Signature-Version: 1.0
-SHA1-Digest-Manifest: zM+nHgcA1vGZzjUS+UElNwrgXXA=
+SHA1-Digest-Manifest: OYvOIVJVmMoYXJSJ+i6FhqHM03U=
 
 Name: hellotvxlet/GameOver.class
 SHA1-Digest: p+NTF1zx50CU/gIN2R7SJIZh2Mw=
@@ -13,7 +13,7 @@ Name: hellotvxlet/spaceship1.class
 SHA1-Digest: LuoV8ulhnmaZL9tVZP5OPdqlWaA=
 
 Name: hellotvxlet/Paal.class
-SHA1-Digest: EujhN5E1vt1yx/Ov/S+Mwxog1vk=
+SHA1-Digest: fQJWeI81GWbpkhcY+WffZ4jsWvo=
 
 Name: hellotvxlet/PaalGenerator.class
 SHA1-Digest: FpOOetFOPeNVGlNbO1jjWUso/ZY=
@@ -31,7 +31,7 @@ Name: hellotvxlet/Sprite.class
 SHA1-Digest: BfNDpIae158AuPbTYopQc77sUDA=
 
 Name: hellotvxlet/CollisionDetector.class
-SHA1-Digest: 4ot6Muaeqh2VN/Jj+e+tF/dlJDQ=
+SHA1-Digest: kdXsAu0Xp8Vvq+fezRPjpLZJQlE=
 
 Name: hellotvxlet/HelloTVXlet.class
 SHA1-Digest: BYjMRZEtXJ3j2PwwY6Vj6ic6td4=
