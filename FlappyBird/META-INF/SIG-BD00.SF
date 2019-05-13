@@ -1,28 +1,28 @@
 Signature-Version: 1.0
 Created-By: 1.6.0_16 (Sun Microsystems Inc.)
 BDJ-Signature-Version: 1.0
-SHA1-Digest-Manifest: DgqcJfN9UFi4w23I2wR0OulSaHc=
-
-Name: hellotvxlet/HelloTVXlet.class
-SHA1-Digest: sZmjvobJe0bhu5DHdEVIzPPuKgQ=
+SHA1-Digest-Manifest: lL8CSsysnub5lSdlb+kwbl0b+Hg=
 
 Name: hellotvxlet/GameOver.class
 SHA1-Digest: p+NTF1zx50CU/gIN2R7SJIZh2Mw=
+
+Name: hellotvxlet/HstaticText.class
+SHA1-Digest: Eh4uTvf3FiMvqZcmG7xmm0JZFQg=
 
 Name: hellotvxlet/spaceship1.class
 SHA1-Digest: LuoV8ulhnmaZL9tVZP5OPdqlWaA=
 
 Name: hellotvxlet/Paal.class
-SHA1-Digest: 9zFNvtRwpIudyrBLQri4WO8E3pY=
+SHA1-Digest: EujhN5E1vt1yx/Ov/S+Mwxog1vk=
+
+Name: hellotvxlet/PaalGenerator.class
+SHA1-Digest: FpOOetFOPeNVGlNbO1jjWUso/ZY=
 
 Name: hellotvxlet/Achtergrond.class
-SHA1-Digest: GhCgPv53NnaUyY/o42GboxjphY8=
+SHA1-Digest: CnsXYxcTtL/dsHMg6IADx9hJJF8=
 
 Name: hellotvxlet/Vogel.class
-SHA1-Digest: MJ3dy3myaEFEFmbEWS9rOskQ39k=
-
-Name: hellotvxlet/bluray.HelloTVXlet.perm
-SHA1-Digest: 84ZO/rYCyy0JStmaLbg1GDVEFhQ=
+SHA1-Digest: 7VVEruvR6HLUuZptldnvK/LhhUQ=
 
 Name: hellotvxlet/TimerBron.class
 SHA1-Digest: TqjoPpupc/hmMaT+VuzTXfznMc8=
@@ -30,9 +30,15 @@ SHA1-Digest: TqjoPpupc/hmMaT+VuzTXfznMc8=
 Name: hellotvxlet/Sprite.class
 SHA1-Digest: BfNDpIae158AuPbTYopQc77sUDA=
 
+Name: hellotvxlet/CollisionDetector.class
+SHA1-Digest: s2EV/e7cHXI4xvvdhMzzN961eIo=
+
+Name: hellotvxlet/HelloTVXlet.class
+SHA1-Digest: 5WCfCRsFY3a8QraWytCUbnU49t0=
+
+Name: hellotvxlet/bluray.HelloTVXlet.perm
+SHA1-Digest: 84ZO/rYCyy0JStmaLbg1GDVEFhQ=
+
 Name: hellotvxlet/Levend.class
 SHA1-Digest: PT2v6/8hobDeftIcQ4wVjHdK0Kk=
-
-Name: hellotvxlet/CollisionDetector.class
-SHA1-Digest: aZjpnRS4LaDLQ6RfQJ/xyeMMHMM=
 

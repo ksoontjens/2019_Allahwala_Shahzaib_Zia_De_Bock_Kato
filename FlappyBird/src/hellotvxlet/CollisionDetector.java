@@ -27,7 +27,10 @@ public class CollisionDetector implements Levend {
            Paal p=((Paal)al.get(i));
            if (p.getBounds().intersects(v.getBounds()))
            {
-               System.out.println("COLLISION!!!");
+               for(int l=0; l<100; l++){
+                   System.out.println("COLLISION!!!" + l);
+               }
+               
            }
            
        }

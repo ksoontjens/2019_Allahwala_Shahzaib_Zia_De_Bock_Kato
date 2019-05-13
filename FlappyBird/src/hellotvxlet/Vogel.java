@@ -46,14 +46,12 @@ public Vogel(String filename)
     
           val = 1;
       }
+      x=30;
       y+=3;
       this.repaint();
       
         this.setBounds(x,y,spaceship1.getWidth(this),spaceship1.getHeight(this));
         
-       if(y>300){
-          val = 5;
-      }
     }
       public void paint(Graphics g)
     {
@@ -61,7 +59,6 @@ public Vogel(String filename)
         if (val == 2) g.drawImage(spaceship2, 0, 0, this);
         if (val == 3) g.drawImage(spaceship3, 0, 0, this);
         if (val == 4) g.drawImage(spaceship4, 0, 0, this);
-        if (val == 5) g.drawImage(gameOver, 0, 0, this);
      //  g.drawLine(x+100, x, x+100, x);
     }
 }

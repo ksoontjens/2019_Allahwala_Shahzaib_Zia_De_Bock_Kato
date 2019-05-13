@@ -9,6 +9,7 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.MediaTracker;
 import org.havi.ui.HComponent;
+import org.havi.ui.HStaticText;
 
 /**
  *
@@ -18,6 +19,7 @@ public class Achtergrond extends Sprite implements Levend {
 
     Image achterg; //=new Image();
     int x=0;
+    public HStaticText score;
     
     public Achtergrond (String filename) 
     

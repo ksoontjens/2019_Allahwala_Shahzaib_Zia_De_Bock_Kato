@@ -6,6 +6,7 @@
 package hellotvxlet;
 import java.awt.Graphics;
 import java.awt.Image;
+import java.awt.MediaTracker;
 
 /**
  *
@@ -13,12 +14,27 @@ import java.awt.Image;
  */
 
 public class Paal extends Sprite {
-   
+    
+    Image paal;
 
      
-         public Paal (String filename) 
+         public Paal (String filename, boolean boven) 
     {
         super(filename);
+        paal=this.getToolkit().getImage(("paal.png"));
+        MediaTracker mt=new MediaTracker(this);
+        mt.addImage(paal, 1);
+        try {
+            mt.waitForAll();
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        x=720;
+        if (boven)  y=(int) (Math.random() * 200)-200; 
+        else
+            y=(int) (Math.random() * 100 + 100 + 272);
+  
+            
     }
  public void leef() {
     //  System.out.println("paal");
@@ -28,6 +44,13 @@ public class Paal extends Sprite {
       this.repaint();
  
         this.setBounds(x,y,img.getWidth(this),img.getHeight(this));
+    }
+ 
+ public void paint(Graphics g)
+    {
+        g.drawImage(paal, 0, 0, this);
+        
+     //  g.drawLine(x+100, x, x+100, x);
     }
 
 }
