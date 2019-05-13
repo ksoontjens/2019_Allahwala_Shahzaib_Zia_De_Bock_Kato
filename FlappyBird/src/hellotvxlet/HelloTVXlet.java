@@ -52,7 +52,7 @@ public class HelloTVXlet implements Xlet, UserEventListener {
             ex.printStackTrace();
         }
  */
-    this.score.setBounds(100,99, 200, 50);
+    //this.score.setBounds(100,99, 200, 50);
     this.score.setForeground(Color.WHITE);
     
 scene.add(score);
