@@ -32,10 +32,6 @@ public class CollisionDetector implements Levend {
            if (p.getBounds().intersects(v.getBounds()))
            {
                hoofdprog.stopSpel();
-               for(int l=0; l<100; l++){
-                   System.out.println("COLLISION!!!" + l);
-               }
-               
            }
 
            

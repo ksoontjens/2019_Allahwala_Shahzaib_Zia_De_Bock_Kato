@@ -21,10 +21,6 @@ public class Achtergrond extends Sprite implements Levend {
 
     Image achterg; //=new Image();
     int x=0;
-    int points;
-    int prevPoints;
-    int highPoints;
-
     
     public Achtergrond (String filename) 
     
