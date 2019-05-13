@@ -5,6 +5,8 @@
 
 package hellotvxlet;
 
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.MediaTracker;
@@ -19,7 +21,10 @@ public class Achtergrond extends Sprite implements Levend {
 
     Image achterg; //=new Image();
     int x=0;
-    public HStaticText score;
+    int points;
+    int prevPoints;
+    int highPoints;
+
     
     public Achtergrond (String filename) 
     
@@ -34,6 +39,8 @@ public class Achtergrond extends Sprite implements Levend {
       this.repaint();
       if (achterg==null) return;
       this.setBounds(x,y,achterg.getWidth(this),achterg.getHeight(this));
+      
+    
     }
 
     

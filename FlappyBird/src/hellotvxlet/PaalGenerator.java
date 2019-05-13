@@ -6,6 +6,8 @@
 package hellotvxlet;
 
 import org.havi.ui.HScene;
+import org.havi.ui.HStaticText;
+import org.havi.ui.HVisible;
 
 /**
  *
@@ -16,14 +18,24 @@ public class PaalGenerator implements Levend {
     private HScene scene;
     private TimerBron tb;
     private CollisionDetector cd;
-public PaalGenerator(HScene scene, TimerBron tb, CollisionDetector cd)
+    HStaticText score;
+    int scoreint=0;
+    
+public PaalGenerator(HScene scene, TimerBron tb, CollisionDetector cd, HStaticText score)
 {
     this.scene=scene;
     this.tb=tb;
     this.cd=cd;
+    this.score=score;
 }
     public void leef() {
         teller++;
+        
+        if (teller%40==0)
+        {
+            scoreint++;
+            score.setTextContent("score:"+scoreint, HVisible.NORMAL_STATE);
+        }
       if (teller%400==0)
       {   Paal paal=new Paal("paal.png",true);
                     Paal paal2=new Paal("paal.png",false);
