@@ -25,18 +25,26 @@ import org.havi.ui.HStaticText;
 
 
 public class HelloTVXlet implements Xlet, UserEventListener {
-          Vogel vg=new Vogel("spaceship1.png");
-    //      Paal paal=new Paal("paal.png",true);
-    //                Paal paal2=new Paal("paal.png",false);
+          Vogel vg;
+ 
             GameOver go=new GameOver("gameover.png");
      HScene scene=HSceneFactory.getInstance().getDefaultHScene();
-          TimerBron tb=new TimerBron();
+
          public HStaticText score;
     public HStaticText prevScore;
     public HStaticText highScore;
+      Timer t;
+         TimerBron tb;
+         
     public void initXlet(XletContext context) {
-
-     Timer t=new Timer();
+        startSpel();
+    }
+    
+    
+    public void startSpel() {
+   t=new Timer();
+          tb=new TimerBron();
+          vg=new Vogel("spaceship1.png");
      t.scheduleAtFixedRate(tb, 0, 10);
      Achtergrond ag=new Achtergrond("achtergrond.jpg");
 
@@ -114,9 +122,11 @@ scene.popToFront(score);
     
        public void restartSpel()
     {
-        scene.remove(go);
+        scene.removeAll();
         scene.repaint();
         tb.disabled=false;
+        t.cancel();
+        startSpel();
     }
 
 
