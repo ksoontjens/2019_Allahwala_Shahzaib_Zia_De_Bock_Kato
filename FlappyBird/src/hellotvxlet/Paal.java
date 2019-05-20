@@ -32,7 +32,7 @@ public class Paal extends Sprite {
         x=720;
         if (boven)  y=(int) (Math.random() * 100)-100; 
         else
-            y=(int) (Math.random() * 50 + 50 + 288);
+            y=(int) (Math.random() * 70 + 120 + 288);
   
             
     }
