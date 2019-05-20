@@ -69,7 +69,7 @@ scene.popToFront(score);
      
 
      scene.add(ag);
-     scene.add(go);
+
           scene.add(vg);
           scene.popToFront(vg);
                //scene.popToFront(go);
@@ -111,11 +111,26 @@ scene.popToFront(score);
         scene.repaint();
         tb.disabled=true;
     }
+    
+       public void restartSpel()
+    {
+        scene.remove(go);
+        scene.repaint();
+        tb.disabled=false;
+    }
+
 
     public void userEventReceived(UserEvent arg0) {
        if (arg0.getCode()==HRcEvent.VK_UP)
        {
           vg.vlieg=20;  // vlieg tot y-50
        }
+       if(tb.disabled == true){
+           if (arg0.getCode()==HRcEvent.VK_DOWN)
+       {
+          restartSpel();
+       }
+       }
+       
     }
 }
