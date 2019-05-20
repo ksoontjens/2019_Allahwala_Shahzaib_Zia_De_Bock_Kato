@@ -47,7 +47,7 @@ public Vogel(String filename)
     
           val = 1;
       }
-      x=30;
+      x=100;
       y+=1;
       this.repaint();
       

@@ -30,9 +30,9 @@ public class Paal extends Sprite {
             ex.printStackTrace();
         }
         x=720;
-        if (boven)  y=(int) (Math.random() * 100)-100; 
+        if (boven)  y=(int) (Math.random() * 120)-120; 
         else
-            y=(int) (Math.random() * 50 + 50 + 288);
+            y=(int) (Math.random() * 70 + 70 + 288);
   
             
     }
