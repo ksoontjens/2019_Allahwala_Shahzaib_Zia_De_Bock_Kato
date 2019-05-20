@@ -33,6 +33,7 @@ public class Paal extends Sprite {
         if (boven)  y=(int) (Math.random() * 100)-100; 
         else
             y=(int) (Math.random() * 70 + 120 + 288);
+        this.setBounds(x,y,img.getWidth(this),img.getHeight(this));
   
             
     }
@@ -41,9 +42,8 @@ public class Paal extends Sprite {
   //    x=x-1;
 
       x--; //=3;
-      this.repaint();
- 
         this.setBounds(x,y,img.getWidth(this),img.getHeight(this));
+        this.repaint();
     }
  
  public void paint(Graphics g)
